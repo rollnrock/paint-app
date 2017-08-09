@@ -1,0 +1,19 @@
+/* CSS declarations go here */ 
+body{
+  /*image wil be displayed fullscreen*/ 
+  background:transparent url('desktop.jpg');
+  background-repeat: no-repeat center center fixed;
+  /*to ensure full height of the window*/
+  min-height: 100%;
+  /*the magic*/
+  background-size: cover;
+  
+}
+
+/*text decorations*/
+h1{
+    color:#ffffff 
+}
+p{
+    color:#2BBBAD;
+}

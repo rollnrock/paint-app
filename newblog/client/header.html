@@ -1,0 +1,33 @@
+<!--navbar file-->
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-sacale=1.0">
+</head>
+<template name="header">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a href="/news">News</a>
+
+          </li>
+         <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <!--<li>
+            <a href="/admin/blog">Admin</a>
+          </li>-->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <!--remember to add user accounts package login-->
+          {{> loginButtons}}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
